@@ -147,7 +147,7 @@
 	.twitter:hover a {
 		color: rgb(255, 255, 255) !important;
 		/*background-color: rgb(79, 213, 248) !important;*/
-		background-color: #83878D;
+		background-color: #00af49;
 	}
 	.google-plus:hover a {
 		color: rgb(255, 255, 255) !important;
@@ -306,6 +306,10 @@
 			font-size: 15pt;
 		}
 
+		.event-list > li > .info > .sold-out-event {
+			font-size: 15pt;
+		}
+
 		.event-list > li > .info > .long-venue {
 			font-size: 14pt;
 		}
@@ -355,9 +359,10 @@
 		}
 
 		.event-list > li > .info > .sub-title {
-			padding: 10px;
+			/*padding: 10px;
 			padding-top: 5px;
-		    padding-bottom: 5px;
+		    padding-bottom: 5px;*/
+		    padding: 1px;
 		}
 
 		.event-list > li > .info > ul {
@@ -393,8 +398,16 @@
 			font-size: 15pt;
 		}
 
+		.event-list > li > .info > .sold-out-event {
+			font-size: 15pt;
+		}
+
 		.event-list > li > .info > .long-venue {
 			font-size: 14pt;
+		}
+
+		.event-list > li > .info > .sold-out-venue {
+			font-size: 13pt;
 		}
 
 		.event-list > li > .info > .extra-long-venue {
