@@ -1,0 +1,54 @@
+#title {
+    text-align: center;
+    color: #e74c3c;
+    font-weight: bold;
+    font-family: 'Arvo', serif;
+}
+
+#bottom-row {
+        margin-bottom: 10px;
+}
+
+.col-md-6 h2{
+	text-align: center;
+    color: #e74c3c;
+    /*font-weight: bold;*/
+    font-family: 'Arvo', serif;
+}
+
+.row
+{
+	margin-top: 20px;
+}
+
+iframe, object, embed {
+    max-width: 100%;
+}
+
+.col-md-6 iframe {
+    margin: auto;
+    display: block;
+}
+
+.col-md-6 img{
+    height: 250px;
+    max-width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 15px;
+}
+
+/*Media Queries*/
+@media (max-width: 990px) {
+    #title {
+        margin-bottom: 0px;
+    }
+
+    .container .row {
+        margin-top: 0px
+    }
+
+    .album-container {
+        margin-top: 35px;
+    }
+
+}
