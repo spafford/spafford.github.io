@@ -44,6 +44,10 @@ footer .container a {
   /*font-size: small;*/
 }
 
+footer > p > a {
+  color: #337ab7;
+}
+
 
 hr {
 	width: 600px
