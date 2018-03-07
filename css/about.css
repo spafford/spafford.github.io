@@ -26,6 +26,10 @@ ul.nav {
     margin-bottom: 25px;
 }
 
+#top-paragraph-bio {
+	margin-top: 20px;
+}
+
 .jumbotron {
 	text-align: center;
 	/*background-image: url('../images/adam.jpg');
