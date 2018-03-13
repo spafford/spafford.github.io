@@ -10,7 +10,7 @@
 	.event-list h2 {
 		color: black;
 	}
-    
+
     .event-list {
 		list-style: none;
 		font-family: 'Lato', sans-serif;
@@ -81,7 +81,7 @@
 		font-size: 10pt;
 		font-weight: 300;
 		margin: 0px;
-	}	
+	}
 
 	.event-list > li > .info > .desc {
 		font-size: 15pt;
@@ -116,13 +116,13 @@
 		width: 100%;
 		color: rgb(30, 30, 30);
 		text-decoration: none;
-	} 
-    .event-list > li > .social > ul > li {    
+	}
+    .event-list > li > .social > ul > li {
         padding: 0px;
     }
     .event-list > li > .social > ul > li > a {
         padding: 3px 0px;
-	} 
+	}
 	.event-list > li > .info > ul > li:hover,
 	.event-list > li > .social > ul > li:hover {
 		color: rgb(30, 30, 30);
@@ -200,8 +200,8 @@
 			height: 120px;
 			text-align: left;
 			padding-right: 40px;
-		}	
-		.event-list > li > .info > .title, 
+		}
+		.event-list > li > .info > .title,
 		.event-list > li > .info > .desc {
 			padding: 0px 10px;
 		}
@@ -226,7 +226,7 @@
         .event-list > li > .social > ul {
             border-left: 1px solid rgb(230, 230, 230);
         }
-		.event-list > li > .social > ul > li {			
+		.event-list > li > .social > ul > li {
 			display: block;
             padding: 0px;
 		}
@@ -274,8 +274,8 @@
 			height: 120px;
 			text-align: left;
 			padding-right: 40px;
-		}	
-		.event-list > li > .info > .title, 
+		}
+		.event-list > li > .info > .title,
 		.event-list > li > .info > .desc {
 			padding: 0px 10px;
 		}
@@ -301,7 +301,7 @@
         .event-list > li > .social > ul {
             border-left: 1px solid rgb(230, 230, 230);
         }
-		.event-list > li > .social > ul > li {			
+		.event-list > li > .social > ul > li {
 			display: block;
             padding: 0px;
 		}
@@ -365,8 +365,8 @@
 			height: 120px;
 			text-align: left;
 			padding-right: 40px;
-		}	
-		.event-list > li > .info > .title, 
+		}
+		.event-list > li > .info > .title,
 		.event-list > li > .info > .desc {
 			padding: 0px 10px;
 		}
@@ -393,7 +393,7 @@
         .event-list > li > .social > ul {
             border-left: 1px solid rgb(230, 230, 230);
         }
-		.event-list > li > .social > ul > li {			
+		.event-list > li > .social > ul > li {
 			display: block;
             padding: 0px;
 		}
