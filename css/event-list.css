@@ -89,7 +89,8 @@
 		margin: 0px;
 	}
 	.event-list > li > .info > ul,
-	.event-list > li > .social > ul {
+	.event-list > li > .social > ul,
+  .event-list > li > .social-multi > ul {
 		display: table;
 		list-style: none;
 		margin: 10px 0px 0px;
@@ -111,6 +112,20 @@
 		font-weight: 300;
         padding: 3px 0px;
 	}
+
+  .event-list > li > .social-multi > ul {
+    margin: 0px;
+  }
+
+  .event-list > li > .social-multi > ul > li {
+		display: table-cell;
+		cursor: pointer;
+		color: rgb(30, 30, 30);
+		font-size: 20pt;
+		font-weight: 300;
+        padding: 3px 0px;
+	}
+
     .event-list > li > .info > ul > li > a {
 		display: block;
 		width: 100%;
@@ -130,6 +145,7 @@
 	}
 	.facebook a,
 	.twitter a,
+  .twitter-2x a,
 	.google-plus a {
 		display: block;
 		width: 100%;
@@ -158,6 +174,25 @@
 	.twitter .sold-out {
 		font-size: 27px;
 	}
+
+  .twitter-2x {
+    color: rgb(0, 0, 0) !important;
+    font-size: 13pt;
+    padding: 7px 0px;
+  }
+  .twitter-2x:hover a {
+    color: rgb(255, 255, 255) !important;
+    /*background-color: rgb(79, 213, 248) !important;*/
+    background-color: #00af49;
+  }
+  .twitter-2x:hover .sold-out {
+    color: rgb(255, 255, 255) !important;
+    /*background-color: rgb(79, 213, 248) !important;*/
+    background-color: red;
+  }
+  .twitter-2x .sold-out {
+    font-size: 27px;
+  }
 	.google-plus:hover a {
 		color: rgb(255, 255, 255) !important;
 		background-color: rgb(221, 75, 57) !important;
@@ -168,6 +203,16 @@
 		font-size: 1.5em;
 	}
 	@media (min-width: 768px) {
+    .twitter-2x a {
+      color: rgb(0, 0, 0) !important;
+      font-size: 13pt;
+      padding: 7px 0px;
+    }
+
+    .fa-ticket {
+      padding: 5px 0px;
+    }
+
 		.event-list > li {
 			position: relative;
 			display: block;
@@ -223,9 +268,17 @@
 			display: block;
 			width: 40px;
 		}
-        .event-list > li > .social > ul {
-            border-left: 1px solid rgb(230, 230, 230);
-        }
+
+    .event-list > li > .social-multi {
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			display: block;
+			width: 40px;
+		}
+    .event-list > li > .social > ul {
+        border-left: 1px solid rgb(230, 230, 230);
+    }
 		.event-list > li > .social > ul > li {
 			display: block;
             padding: 0px;
@@ -239,9 +292,71 @@
 		.long-name {
 			font-size: 16pt;
 		}
+
+    .event-list > li > .social-multi {
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			display: block;
+			width: 40px;
+		}
+
+    .event-list > li > .social-multi > ul {
+        border-left: 1px solid rgb(230, 230, 230);
+    }
+		.event-list > li > .social-multi > ul > li {
+			display: block;
+            padding: 0px;
+		}
+		.event-list > li > .social-multi > ul > li > a {
+			display: block;
+			width: 40px;
+	    padding: 0px 0px 2px;
+		}
+
+    .twitter-2x a {
+      color: rgb(0, 0, 0) !important;
+      font-size: 13pt;
+      padding: 7px 0px;
+    }
+
+    .fa-ticket {
+      padding: 5px 0px;
+    }
 	}
 
 	@media (max-width: 990px) {
+    .event-list > li > .social-multi {
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			display: block;
+			width: 40px;
+		}
+
+    .event-list > li > .social-multi > ul {
+        border-left: 1px solid rgb(230, 230, 230);
+    }
+		.event-list > li > .social-multi > ul > li {
+			display: block;
+            padding: 0px;
+		}
+		.event-list > li > .social-multi > ul > li > a {
+			display: block;
+			width: 40px;
+	    padding: 0px 0px 2px;
+		}
+
+    .twitter-2x a {
+      color: rgb(0, 0, 0) !important;
+      font-size: 13pt;
+      padding: 7px 0px;
+    }
+
+    .fa-ticket {
+      padding: 5px 0px;
+    }
+
 		.event-list > li {
 			position: relative;
 			display: block;
@@ -333,7 +448,17 @@
 	}
 
 	@media (max-width: 385px) {
-				.event-list > li {
+    .twitter-2x a {
+      color: rgb(0, 0, 0) !important;
+      font-size: 13pt;
+      padding: 7px 0px;
+    }
+
+    .fa-ticket {
+      padding: 5px 0px;
+    }
+
+		.event-list > li {
 			position: relative;
 			display: block;
 			width: 100%;
@@ -390,20 +515,37 @@
 			display: block;
 			width: 40px;
 		}
-        .event-list > li > .social > ul {
-            border-left: 1px solid rgb(230, 230, 230);
-        }
-		.event-list > li > .social > ul > li {
+
+    .event-list > li > .social-multi {
+			position: absolute;
+			top: 0px;
+			right: 0px;
 			display: block;
-            padding: 0px;
+			width: 40px;
 		}
+
+    .event-list > li > .social > ul,
+    .event-list > li > .social-multi > ul {
+        border-left: 1px solid rgb(230, 230, 230);
+    }
+
+		.event-list > li > .social > ul > li,
+    .event-list > li > .social-multi > ul > li {
+			display: block;
+      padding: 0px;
+		}
+
 		.event-list > li > .social > ul > li > a {
 			display: block;
 			width: 40px;
 			padding: 10px 0px 12px;
+			text-align: center;
 		}
 
-		.info h2, .info p {
+    .event-list > li > .social-multi > ul > li > a {
+			display: block;
+			width: 40px;
+			padding: 0px 0px 2px;
 			text-align: center;
 		}
 
