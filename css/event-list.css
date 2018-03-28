@@ -221,6 +221,14 @@
 		font-size: 1.5em;
 	}
 	@media (min-width: 768px) {
+    #fest420 {
+      font-size: 13pt;
+    }
+
+    #variety {
+      font-size: 13pt;
+    }
+
     .twitter-2x a {
       color: rgb(0, 0, 0) !important;
       font-size: 13pt;
