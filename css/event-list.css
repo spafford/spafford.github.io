@@ -6,6 +6,24 @@
 		background-color: rgb(220, 220, 220);
 	}
 
+  .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+
+      /* Position the tooltip */
+      position: absolute;
+      z-index: 1;
+  }
+
+  .tooltip:hover .tooltiptext {
+      visibility: visible;
+  }
+
 
 	.event-list h2 {
 		color: black;
@@ -448,6 +466,14 @@
 	}
 
 	@media (max-width: 385px) {
+    #st-aug {
+      font-size: 10pt;
+    }
+
+    #canada {
+      font-size: 11pt;
+    }
+
     .twitter-2x a {
       color: rgb(0, 0, 0) !important;
       font-size: 13pt;
