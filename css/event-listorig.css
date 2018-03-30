@@ -62,14 +62,14 @@
 	}
 	.event-list > li > time > .day {
 		display: block;
-		font-size: 48pt;
+		font-size: 42pt;
 		font-weight: 100;
 		line-height: 1;
 	}
 
   .event-list > li > time > .dow {
 		display: block;
-		font-size: 17pt;
+		font-size: 20pt;
 		font-weight: 100;
 		line-height: 1;
 	}
@@ -79,16 +79,15 @@
 		font-size: 33pt;
 		font-weight: 100;
 		line-height: 1;
-    margin-top: 9px;
- 		margin-bottom: 9px;
+	    margin-top: 13px;
+   		margin-bottom: 15px;
 	}
 
 	.event-list > li time > .month {
 		display: block;
-		font-size: 21pt;
+		font-size: 24pt;
 		font-weight: 900;
 		line-height: 1;
-    margin-top: 2px;
 	}
 	.event-list > li > img {
 		width: 100%;
