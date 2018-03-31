@@ -52,7 +52,7 @@ h1, p {
   margin-top: 75px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .container {
     margin-top: 0px;
   }
