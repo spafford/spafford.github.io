@@ -104,10 +104,6 @@ ul.nav {
     padding-right: 30px;
 }
 
-.footer {
-    height: 110px;
- }
-
 /*Media Queries*/
 @media (max-width: 990px) {
 	#news-item-bottom, #news-item-top {

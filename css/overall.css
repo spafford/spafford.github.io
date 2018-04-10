@@ -13,8 +13,9 @@ body {
 
 footer{
  background-color: #f74c3c;
- padding-top: 5px;
+ padding-top: 1px;
  padding-bottom: 0px;
+ line-height: 16px;
 }
 
 footer p {
@@ -36,8 +37,8 @@ footer .container a {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 90px; /* Set the fixed height of the footer here */
-  line-height: 20px; /* Vertically center the text there */
+  height: 91px; /* Set the fixed height of the footer here */
+  line-height: 16px; /* Vertically center the text there */
   /*background-color: transparent;*/
   /*text-shadow: -1px 0 white,0 1px white,1px 0 white,0 -1px white;*/
   /*color: white;*/
