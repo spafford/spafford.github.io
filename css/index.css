@@ -44,6 +44,10 @@ body {
   text-align: center;
 }
 
+label {
+  color: white;
+}
+
 h1, p {
   color: white;
 }
