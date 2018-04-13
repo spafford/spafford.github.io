@@ -1,7 +1,7 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 
 footer {
-	    height: 115px;
+    height: 119px;
 }
 
 ul.nav, .jumbotron h1 {
@@ -107,4 +107,19 @@ hr {
 
 .event-list p, .event-list h2 {
 	text-align: left
+}
+
+@media (max-width: 768px) {
+	hr {
+		width: 160px
+	}
+  footer{
+   height: 155px;
+  }
+}
+
+@media (max-width: 414px) {
+  footer{
+   height: 151px;
+  }
 }

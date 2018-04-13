@@ -5,7 +5,7 @@ body {
 }
 
 .footer {
-	    height: 115px;
+	    height: 118px;
 }
 
 #title {
@@ -39,4 +39,29 @@ iframe, object, embed {
     #shoes {
         font-size: 29px;
     }
+}
+
+@media (max-width: 768px) {
+  .footer{
+   height: 155px;
+  }
+
+  .col-md-6 {
+    display: block;
+    text-align: center;
+  }
+
+  #bottom-row-mobile {
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 414px) {
+  .footer{
+   height: 151px;
+  }
+
+  #bottom-row-mobile {
+    margin-bottom: 80px;
+  }
 }

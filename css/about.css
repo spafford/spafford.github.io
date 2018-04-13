@@ -9,6 +9,10 @@ ul.nav {
 	font-weight: bold;
 }
 
+footer {
+	height: 130px
+}
+
 #news-break {
 	width: 160px
 }
@@ -117,5 +121,22 @@ ul.nav {
 	.col-md-6 img {
 	    margin-bottom: 20px;
 	}
+}
 
+@media (max-width: 768px) {
+	hr {
+		width: 160px
+	}
+  footer{
+   height: 166px;
+  }
+}
+
+@media (max-width: 414px) {
+	hr {
+		width: 160px
+	}
+  footer{
+   height: 166px;
+  }
 }
