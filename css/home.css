@@ -114,7 +114,7 @@ ul.nav {
 	}
 }
 
-@media (min-width: 414px) {
+@media (max-width: 414px) {
 	hr {
 		width: 160px
 	}
