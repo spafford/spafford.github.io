@@ -1,5 +1,8 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 
+footer {
+	    height: 115px;
+}
 
 ul.nav, .jumbotron h1 {
 	font-family: 'Roboto', sans-serif;
@@ -79,7 +82,7 @@ ul.nav {
 
 .tour-dates h2{
 	margin-top: 20px;
-	color: #e74c3c; 
+	color: #e74c3c;
 	font-weight: bold;
 	font-family: 'Arvo', serif;
 }
@@ -105,4 +108,3 @@ hr {
 .event-list p, .event-list h2 {
 	text-align: left
 }
-
