@@ -113,6 +113,14 @@ ul.nav {
 		    margin-top: 35px;
 	}
 }
+@media (max-width: 768px) {
+	hr {
+		width: 160px
+	}
+  .footer {
+   height: 166px;
+  }
+}
 
 @media (max-width: 414px) {
 	hr {
