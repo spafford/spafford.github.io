@@ -45,6 +45,10 @@ ul.nav {
 	margin-top: 0px
 }
 
+#home-row{
+	margin-bottom: 40px;
+}
+
 .jumbotron {
 	text-align: center;
 	/*background-image: url('../images/adam.jpg');
