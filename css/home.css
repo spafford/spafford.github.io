@@ -49,6 +49,10 @@ ul.nav {
 	margin-bottom: 40px;
 }
 
+#scamp {
+  font-size: 18pt;
+}
+
 .jumbotron {
 	text-align: center;
 	/*background-image: url('../images/adam.jpg');
