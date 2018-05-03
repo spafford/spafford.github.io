@@ -2,6 +2,14 @@
  * Globals
  */
 
+ iframe {
+   margin: 20px;
+ }
+
+ img {
+   margin-top: 20px;
+ }
+
 /* Links */
 a,
 a:focus,
@@ -53,11 +61,11 @@ h1, p {
 }
 
 .container {
-  margin-top: 75px;
+  /* margin-top: 20px; */
 }
 
 @media (max-width: 380px) {
   .container {
-    margin-top: 0px;
+    margin-top: 10px;
   }
 }
