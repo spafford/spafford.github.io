@@ -130,6 +130,16 @@ ul.nav {
   }
 }
 
+@media  (min-width: 768px) {
+	#phb {
+		font-size: 18pt;
+	}
+
+	#phb-venue {
+		font-size: 12pt;
+	}
+}
+
 @media (max-width: 414px) {
 	hr {
 		width: 160px
@@ -137,4 +147,8 @@ ul.nav {
   .footer{
    height: 166px;
   }
+
+	#scamp {
+		font-size: 15pt;
+	}
 }
