@@ -67,6 +67,10 @@ hr {
 	padding-top: 3px;
 }
 
+#days {
+  font-size: 30pt;
+}
+
 
 
 @media (max-width: 767px) {
