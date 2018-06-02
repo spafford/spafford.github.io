@@ -103,6 +103,12 @@
 		margin: 0px;
 	}
 
+  .event-list > li > .info > .upcoming {
+		font-size: 18pt;
+		font-weight: 700;
+		margin: 0px;
+	}
+
 	.event-list > li > .info > .sub-title {
 		font-size: 10pt;
 		font-weight: 300;
@@ -515,7 +521,7 @@
     #chesterfield {
       font-size: 9.5pt;
     }
-    
+
     .twitter-2x a {
       color: rgb(0, 0, 0) !important;
       font-size: 13pt;

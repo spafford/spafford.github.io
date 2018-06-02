@@ -49,8 +49,12 @@ ul.nav {
 	margin-bottom: 40px;
 }
 
-#scamp {
-  font-size: 18pt;
+#broo {
+  font-size: 16pt;
+}
+
+.upcoming {
+	font-size: 18pt;
 }
 
 .jumbotron {
