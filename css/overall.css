@@ -95,6 +95,10 @@ hr {
   margin-bottom: 0px;
 }
 
+#overlay p {
+  margin-top: 10px;
+}
+
 #overlay-content h1, label {
   font-weight: bolder;
 }
