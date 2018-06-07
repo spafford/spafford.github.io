@@ -48,7 +48,26 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body onload="overlayOn()" onclick="overlayOff()" >
+
+    <div id="overlay" onclick="overlayOff()">
+      <div id="overlay-content">
+        <img src="images/album-small.jpg" class="img-responsive center-block"/>
+        <h1>"For Amusement Only" now available everywhere!</h1>
+      </div>
+
+      <div id="mc_embed_signup">
+      <form action="https://spafford.us14.list-manage.com/subscribe/post?u=024819cd25b2423e1ad76690f&amp;id=5d4a9cbba5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+        <label for="mce-EMAIL">Subscribe to our mailing list</label>
+        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_024819cd25b2423e1ad76690f_5d4a9cbba5" tabindex="-1" value=""></div>
+          <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+          </div>
+      </form>
+      </div>
+    </div>
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -227,5 +246,6 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/site.js"></script>
   </body>
 </html>

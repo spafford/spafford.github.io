@@ -71,6 +71,35 @@ hr {
   font-size: 30pt;
 }
 
+#overlay {
+    position: fixed;
+    display: block;
+    width: 55%;
+    height: 65%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 2;
+    cursor: pointer;
+    margin: auto;
+    border-radius: 25px;
+    /* padding: 20px; */
+}
+
+#overlay-content h1, label {
+  color: white;
+  text-align: center;
+  /* -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  /* -webkit-text-stroke-width: 1px; */
+  /* -webkit-text-stroke-color: black; */
+  font-weight: bolder;
+}
+
+#overlay img {
+  margin-top: 55px;
+}
 
 
 @media (max-width: 767px) {
