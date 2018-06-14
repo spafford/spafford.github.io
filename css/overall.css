@@ -114,6 +114,11 @@ hr {
   margin-right: 25px
 }
 
+#overlay h3 {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
 #HSLNH {
   font-size: 15pt
 }
