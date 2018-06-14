@@ -121,6 +121,39 @@ hr {
 #HSLNVH {
     font-size: 12pt
 }
+@media (min-width: 1200px) {
+  #overlay {
+      position: fixed;
+      display: block;
+      width: 35%;
+      height: 56%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0,0,0,0.6);
+      z-index: 2;
+      cursor: pointer;
+      margin: auto;
+      border-radius: 25px;
+      color: white;
+      text-align: center;
+      /* padding: 20px; */
+  }
+
+  #overlay img {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 55%;
+    height: auto;
+  }
+
+  #overlay h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 30px;
+  }
+}
 
 @media (max-width: 1024px) {
   #overlay {
