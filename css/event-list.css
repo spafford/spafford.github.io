@@ -207,6 +207,10 @@
 		font-size: 27px;
 	}
 
+  .event-list > li > .info > .sold-out-header {
+		font-size: 15pt;
+  }
+
   .twitter-2x {
     color: rgb(0, 0, 0) !important;
     font-size: 13pt;
