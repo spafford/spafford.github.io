@@ -67,6 +67,14 @@ hr {
 	padding-top: 3px;
 }
 
+.videoWrapper iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: auto;
+}
+
 #days {
   font-size: 30pt;
 }
