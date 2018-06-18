@@ -94,6 +94,9 @@ hr {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+#overlay a {
+  color: white;
+}
 
 #overlay p {
   margin-top: 10px;
