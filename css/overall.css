@@ -7,7 +7,8 @@ html {
 body {
   padding-top: 50px;
   padding-bottom: 0px;
-
+  overflow: auto;
+  -webkit-overflow-scroll: touch;
 }
 
 
@@ -110,10 +111,12 @@ hr {
     text-align: center;
     padding-top: 50px;
 
-    .overlay-content {
-      height: 100%;
-      overflow: scroll;
-    }
+
+}
+
+.overlay.overlay-content {
+  height: 100%;
+  overflow: scroll;
 }
 
 .overlay h1 {

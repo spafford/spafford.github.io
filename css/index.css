@@ -6,8 +6,9 @@
    margin: 20px;
  }
 
- img {
-   margin-top: 20px;
+ h2, h3 {
+   margin-top: 10px;
+  margin-bottom: 10px;
  }
 
 /* Links */
@@ -30,9 +31,6 @@ a:hover {
 .links a {
   margin: 10px;
 }
-.btn {
-  margin-top: 10px;
-}
 
 .btn:hover {
   background-color: #212121;
@@ -41,7 +39,6 @@ a:hover {
 
 
 .lead {
-  margin-top: 10px;
   margin-bottom: 10px;
   font-family: 'Roboto', sans-serif;
 }
