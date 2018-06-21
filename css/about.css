@@ -115,6 +115,10 @@ footer {
 	margin-top: 10px;
 }
 
+.bottom-row {
+	margin-top: 15px;
+}
+
 
 /*Media Queries*/
 @media (max-width: 990px) {
