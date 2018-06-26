@@ -49,7 +49,7 @@ a:hover {
 
 
 body {
-  background-color: #333;
+  background-color: #545454;
   text-align: center;
 }
 
@@ -63,6 +63,7 @@ h1, h2, p {
 
 .container {
   /* margin-top: 20px; */
+  margin-top: 10px;
 }
 
 @media (max-width: 380px) {
