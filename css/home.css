@@ -49,8 +49,20 @@ ul.nav {
 	margin-bottom: 40px;
 }
 
-#broo {
-  font-size: 16pt;
+#HSLN {
+		font-size: 15pt;
+}
+
+#HSLNV {
+    font-size: 12pt;
+}
+
+#levitate {
+	font-size: 16pt;
+}
+
+#marshfield {
+	font-size: 13pt;
 }
 
 .upcoming {
