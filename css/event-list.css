@@ -238,6 +238,8 @@
 	{
 		font-size: 1.5em;
 	}
+
+
 	@media (min-width: 768px) {
 
     #variety {
@@ -531,7 +533,7 @@
     }
 
     #lawn {
-        font-size: 10pt;
+        font-size: 9pt;
     }
 
     .event-list > li > .info > .sold-out-header {
@@ -665,5 +667,9 @@
 
     .event-list > li > .info > .extra-long-venue.MHWB {
       font-size: 11pt;
+    }
+
+    #peach {
+      font-size: 15pt;
     }
 	}

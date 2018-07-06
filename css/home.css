@@ -131,6 +131,10 @@ ul.nav {
     padding-right: 30px;
 }
 
+#peach {
+	font-size: 19pt;s
+}
+
 /*Media Queries*/
 @media (max-width: 990px) {
 	#news-item-bottom, #news-item-top {
