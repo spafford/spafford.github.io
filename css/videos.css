@@ -5,7 +5,7 @@ body {
 }
 
 .footer {
-	    height: 118px;
+	    height: 178px;
 }
 
 #title {
@@ -47,7 +47,7 @@ iframe, object, embed {
 
 @media (max-width: 768px) {
   .footer{
-   height: 155px;
+   height: 210px;
   }
 
   .col-md-6 {
@@ -56,16 +56,16 @@ iframe, object, embed {
   }
 
   #bottom-row-mobile {
-    margin-bottom: 80px;
+    margin-bottom: 95px;
   }
 }
 
 @media (max-width: 414px) {
   .footer{
-   height: 151px;
+   height: 209px;
   }
 
   #bottom-row-mobile {
-    margin-bottom: 80px;
+    margin-bottom: 95px;
   }
 }

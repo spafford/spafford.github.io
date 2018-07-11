@@ -1,7 +1,7 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 
 footer {
-    height: 119px;
+    height: 178px;
 }
 
 ul.nav, .jumbotron h1 {
@@ -114,12 +114,12 @@ hr {
 		width: 160px
 	}
   footer{
-   height: 155px;
+   height: 210px;
   }
 }
 
 @media (max-width: 414px) {
-  footer{
+  /* footer{
    height: 151px;
-  }
+  } */
 }

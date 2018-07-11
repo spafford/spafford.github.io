@@ -104,7 +104,7 @@ iframe, object, embed {
 
 @media (max-width: 768px) {
   footer{
-   height: 155px;
+   height: 214px;
   }
 
   .col-md-12.nugs  img{
@@ -116,9 +116,9 @@ iframe, object, embed {
 }
 
 @media (max-width: 414px) {
-  footer{
+  /* footer{
    height: 160px;
-  }
+  } */
 
   .col-md-12.nugs  img{
       height: auto;
