@@ -57,6 +57,10 @@ ul.nav {
     font-size: 12pt;
 }
 
+#chesterfield {
+	font-size: 11pt;
+}
+
 #levitate {
 	font-size: 16pt;
 }
@@ -149,6 +153,7 @@ ul.nav {
   .footer {
    height: 222px;
   }
+
 }
 
 @media  (min-width: 768px) {
@@ -158,6 +163,10 @@ ul.nav {
 
 	#phb-venue {
 		font-size: 12pt;
+	}
+
+	#lawn {
+			font-size: 9pt;
 	}
 }
 

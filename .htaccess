@@ -1,5 +1,5 @@
 #Alternate default index page
-DirectoryIndex first.html
+DirectoryIndex home.html
 
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f

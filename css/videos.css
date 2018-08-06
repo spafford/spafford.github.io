@@ -26,6 +26,11 @@ body {
     font-family: 'Arvo', serif;
 }
 
+.ets {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
 .row
 {
 	margin-top: 20px;
