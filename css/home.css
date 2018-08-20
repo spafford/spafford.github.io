@@ -21,6 +21,9 @@ ul.nav {
 	font-weight: bold;
 }
 
+#blueridge {
+	font-size: 18pt;
+}
 
 #news-break {
 	width: 160px
@@ -173,6 +176,9 @@ ul.nav {
 	#lawn {
 			font-size: 9pt;
 	}
+	#st-aug {
+			font-size: 11pt;
+	}
 }
 
 @media (max-width: 414px) {
@@ -186,4 +192,9 @@ ul.nav {
 	#scamp {
 		font-size: 15pt;
 	}
+}
+
+@media (max-width: 385px)
+{
+
 }
