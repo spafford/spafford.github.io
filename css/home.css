@@ -192,6 +192,11 @@ ul.nav {
 	#scamp {
 		font-size: 15pt;
 	}
+
+	#blueridge {
+		font-size: 15pt;
+	}
+	
 }
 
 @media (max-width: 385px)
