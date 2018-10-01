@@ -143,6 +143,10 @@ ul.nav {
     padding-right: 30px;
 }
 
+#news-item-top .btn {
+	margin-bottom: 10px
+}
+
 #peach {
 	font-size: 19pt;s
 }
@@ -196,7 +200,7 @@ ul.nav {
 	#blueridge {
 		font-size: 15pt;
 	}
-	
+
 }
 
 @media (max-width: 385px)
