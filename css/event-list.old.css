@@ -1,0 +1,681 @@
+    @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic");
+    /*@import url("//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");*/
+    @import url("../fonts/font-awesome/css/font-awesome.min.css")
+    body {
+		padding: 60px 0px;
+		background-color: rgb(220, 220, 220);
+	}
+
+  .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+
+      /* Position the tooltip */
+      position: absolute;
+      z-index: 1;
+  }
+
+  .tooltip:hover .tooltiptext {
+      visibility: visible;
+  }
+
+
+	.event-list h2 {
+		color: black;
+	}
+
+    .event-list {
+		list-style: none;
+		font-family: 'Lato', sans-serif;
+		margin-top: 20px;
+   		margin-bottom: 20px;
+		padding: 0px;
+	}
+	.event-list > li {
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px 0px 5px rgb(51, 51, 51);
+		box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.7);
+		padding: 0px;
+		margin: 0px 0px 15px;
+	}
+	.event-list > li > time {
+		display: inline-block;
+		width: 100%;
+		color: rgb(255, 255, 255);
+		/*background-color: rgb(197, 44, 102);*/
+		background-color: #433F40;
+		padding: 5px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.event-list > li:nth-child(even) > time {
+		/*background-color: rgb(165, 82, 167);*/
+		background-color: #83878D;
+	}
+	.event-list > li > time > span {
+		display: none;
+	}
+	.event-list > li > time > .day {
+		display: block;
+		font-size: 48pt;
+		font-weight: 100;
+		line-height: 1;
+	}
+
+  .event-list > li > time > .dow {
+		display: block;
+		font-size: 17pt;
+		font-weight: 100;
+		line-height: 1;
+	}
+
+	.event-list > li > time > .days {
+		display: block;
+		font-size: 33pt;
+		font-weight: 100;
+		line-height: 1;
+    margin-top: 9px;
+ 		margin-bottom: 9px;
+	}
+
+	.event-list > li time > .month {
+		display: block;
+		font-size: 21pt;
+		font-weight: 900;
+		line-height: 1;
+    margin-top: 2px;
+	}
+	.event-list > li > img {
+		width: 100%;
+	}
+	.event-list > li > .info {
+		padding-top: 5px;
+		text-align: center;
+	}
+	.event-list > li > .info > .title {
+		font-size: 20pt;
+		font-weight: 700;
+		margin: 0px;
+	}
+
+  .event-list > li > .info > .sold-out-event {
+		font-size: 18pt;
+		font-weight: 700;
+		margin: 0px;
+	}
+
+  .event-list > li > .info > .upcoming {
+		font-size: 16pt;
+		font-weight: 700;
+		margin: 0px;
+	}
+
+	.event-list > li > .info > .sub-title {
+		font-size: 10pt;
+		font-weight: 300;
+		margin: 0px;
+	}
+
+	.event-list > li > .info > .desc {
+		font-size: 15pt;
+		font-weight: 300;
+		margin: 0px;
+	}
+	.event-list > li > .info > ul,
+	.event-list > li > .social > ul,
+  .event-list > li > .social-multi > ul {
+		display: table;
+		list-style: none;
+		margin: 10px 0px 0px;
+		padding: 0px;
+		width: 100%;
+		text-align: center;
+	}
+
+	.event-list > li > .social > ul {
+		margin: 0px;
+	}
+
+	.event-list > li > .info > ul > li,
+	.event-list > li > .social > ul > li {
+		display: table-cell;
+		cursor: pointer;
+		color: rgb(30, 30, 30);
+		font-size: 20pt;
+		font-weight: 300;
+        padding: 3px 0px;
+	}
+
+  .event-list > li > .social-multi > ul {
+    margin: 0px;
+  }
+
+  .event-list > li > .social-multi > ul > li {
+		display: table-cell;
+		cursor: pointer;
+		color: rgb(30, 30, 30);
+		font-size: 24pt;
+		font-weight: 300;
+        padding: 3px 0px;
+	}
+
+    .event-list > li > .info > ul > li > a {
+		display: block;
+		width: 100%;
+		color: rgb(30, 30, 30);
+		text-decoration: none;
+	}
+    .event-list > li > .social > ul > li {
+        padding: 0px;
+    }
+    .event-list > li > .social > ul > li > a {
+        padding: 3px 0px;
+	}
+	.event-list > li > .info > ul > li:hover,
+	.event-list > li > .social > ul > li:hover {
+		color: rgb(30, 30, 30);
+		background-color: rgb(200, 200, 200);
+	}
+	.facebook a,
+	.twitter a,
+  .twitter-2x a,
+	.google-plus a {
+		display: block;
+		width: 100%;
+		color: rgb(75, 110, 168) !important;
+	}
+	.twitter a {
+		color: rgb(0, 0, 0) !important;
+	}
+	.google-plus a {
+		color: rgb(221, 75, 57) !important;
+	}
+	.facebook:hover a {
+		color: rgb(255, 255, 255) !important;
+		background-color: rgb(75, 110, 168) !important;
+	}
+	.twitter:hover a {
+		color: rgb(255, 255, 255) !important;
+		/*background-color: rgb(79, 213, 248) !important;*/
+		background-color: #00af49;
+	}
+	.twitter:hover .sold-out {
+		color: rgb(255, 255, 255) !important;
+		/*background-color: rgb(79, 213, 248) !important;*/
+		background-color: red;
+	}
+	.twitter .sold-out {
+		font-size: 27px;
+	}
+
+  .event-list > li > .info > .sold-out-header {
+		font-size: 15pt;
+  }
+
+  .twitter-2x {
+    color: rgb(0, 0, 0) !important;
+    font-size: 13pt;
+    padding: 7px 0px;
+  }
+  .twitter-2x:hover a {
+    color: rgb(255, 255, 255) !important;
+    /*background-color: rgb(79, 213, 248) !important;*/
+    background-color: #00af49;
+  }
+  .twitter-2x:hover .sold-out {
+    color: rgb(255, 255, 255) !important;
+    /*background-color: rgb(79, 213, 248) !important;*/
+    background-color: red;
+  }
+  .twitter-2x .sold-out {
+    font-size: 27px;
+  }
+	.google-plus:hover a {
+		color: rgb(255, 255, 255) !important;
+		background-color: rgb(221, 75, 57) !important;
+	}
+
+	.fa .fa-ticket .fa-stack-2x
+	{
+		font-size: 1.5em;
+	}
+
+
+	@media (min-width: 768px) {
+
+    #variety {
+      font-size: 13pt;
+    }
+
+    .twitter-2x a {
+      color: rgb(0, 0, 0) !important;
+      font-size: 13pt;
+      padding: 7px 0px;
+    }
+
+    .fa-ticket {
+      padding: 5px 0px;
+    }
+
+		.event-list > li {
+			position: relative;
+			display: block;
+			width: 100%;
+			height: 120px;
+			padding: 0px;
+		}
+		.event-list > li > time,
+		.event-list > li > img  {
+			display: inline-block;
+		}
+		.event-list > li > time,
+		.event-list > li > img {
+			width: 120px;
+			float: left;
+		}
+		.event-list > li > .info {
+			background-color: rgb(245, 245, 245);
+			overflow: hidden;
+		}
+		.event-list > li > time,
+		.event-list > li > img {
+			width: 120px;
+			height: 120px;
+			padding: 0px;
+			margin: 0px;
+		}
+		.event-list > li > .info {
+			position: relative;
+			height: 120px;
+			text-align: left;
+			padding-right: 40px;
+		}
+		.event-list > li > .info > .title,
+		.event-list > li > .info > .desc {
+			padding: 0px 10px;
+		}
+
+		.event-list > li > .info > .sub-title {
+			padding: 5px;
+			padding-top: 5px;
+		}
+
+		.event-list > li > .info > ul {
+			position: absolute;
+			left: 0px;
+			bottom: 0px;
+		}
+		.event-list > li > .social {
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			display: block;
+			width: 40px;
+		}
+
+    .event-list > li > .social-multi {
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			display: block;
+			width: 40px;
+		}
+    .event-list > li > .social > ul {
+        border-left: 1px solid rgb(230, 230, 230);
+    }
+		.event-list > li > .social > ul > li {
+			display: block;
+            padding: 0px;
+		}
+		.event-list > li > .social > ul > li > a {
+			display: block;
+			width: 40px;
+			padding: 10px 0px 12px;
+		}
+
+		.long-name {
+			font-size: 16pt;
+		}
+
+    .event-list > li > .social-multi {
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			display: block;
+			width: 40px;
+		}
+
+    .event-list > li > .social-multi > ul {
+        border-left: 1px solid rgb(230, 230, 230);
+    }
+		.event-list > li > .social-multi > ul > li {
+			display: block;
+            padding: 0px;
+		}
+		.event-list > li > .social-multi > ul > li > a {
+			display: block;
+			width: 40px;
+	    padding: 0px 0px 2px;
+		}
+
+    .twitter-2x a {
+      color: rgb(0, 0, 0) !important;
+      font-size: 13pt;
+      padding: 7px 0px;
+    }
+
+    .fa-ticket {
+      padding: 5px 0px;
+    }
+	}
+
+	@media (max-width: 990px) {
+    .event-list > li > .social-multi {
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			display: block;
+			width: 40px;
+		}
+
+    .event-list > li > .social-multi > ul {
+        border-left: 1px solid rgb(230, 230, 230);
+    }
+		.event-list > li > .social-multi > ul > li {
+			display: block;
+            padding: 0px;
+		}
+		.event-list > li > .social-multi > ul > li > a {
+			display: block;
+			width: 40px;
+	    padding: 0px 0px 2px;
+		}
+
+    .twitter-2x a {
+      color: rgb(0, 0, 0) !important;
+      font-size: 13pt;
+      padding: 7px 0px;
+    }
+
+    .fa-ticket {
+      padding: 5px 0px;
+    }
+
+		.event-list > li {
+			position: relative;
+			display: block;
+			width: 100%;
+			height: 120px;
+			padding: 0px;
+		}
+		.event-list > li > time,
+		.event-list > li > img  {
+			display: inline-block;
+		}
+		.event-list > li > time,
+		.event-list > li > img {
+			width: 120px;
+			float: left;
+		}
+		.event-list > li > .info {
+			background-color: rgb(245, 245, 245);
+			overflow: hidden;
+		}
+		.event-list > li > time,
+		.event-list > li > img {
+			width: 120px;
+			height: 120px;
+			padding: 0px;
+			margin: 0px;
+		}
+		.event-list > li > .info {
+			position: relative;
+			height: 120px;
+			text-align: left;
+			padding-right: 40px;
+		}
+		.event-list > li > .info > .title,
+		.event-list > li > .info > .desc {
+			padding: 0px 10px;
+		}
+
+		.event-list > li > .info > .sub-title {
+			padding: 10px;
+			padding-top: 5px;
+		    padding-bottom: 5px;
+		}
+
+		.event-list > li > .info > ul {
+			position: absolute;
+			left: 0px;
+			bottom: 0px;
+		}
+		.event-list > li > .social {
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			display: block;
+			width: 40px;
+		}
+        .event-list > li > .social > ul {
+            border-left: 1px solid rgb(230, 230, 230);
+        }
+		.event-list > li > .social > ul > li {
+			display: block;
+            padding: 0px;
+		}
+		.event-list > li > .social > ul > li > a {
+			display: block;
+			width: 40px;
+			padding: 10px 0px 12px;
+		}
+
+		.info h2, .info p {
+			text-align: center;
+		}
+
+		.event-list > li > .info > .long-event {
+			font-size: 15pt;
+		}
+
+		.event-list > li > .info > .sold-out-event {
+			font-size: 15pt;
+		}
+
+		.event-list > li > .info > .long-venue {
+			font-size: 14pt;
+		}
+
+		.event-list > li > .info > .extra-long-venue {
+			font-size: 13pt;
+		}
+	}
+
+	@media (max-width: 385px) {
+    #st-aug {
+      font-size: 11pt;
+    }
+
+    #canada {
+      font-size: 11pt;
+    }
+
+    #levitate {
+      font-size: 14pt;
+    }
+
+    #HSLN {
+      font-size: 13pt;
+    }
+
+    #HSLNV {
+      font-size: 11pt;
+    }
+
+    #marshfield {
+      font-size: 11pt;
+    }
+
+    #ap {
+      font-size: 12pt;
+    }
+
+    #on-sale
+    {
+      font-size: 14pt;
+    }
+
+    #avondale {
+      font-size: 13pt;
+    }
+
+    #chesterfield {
+      font-size: 11.5pt;
+    }
+
+    #lawn {
+        font-size: 9pt;
+    }
+
+    .event-list > li > .info > .sold-out-header {
+  		font-size: 13pt;
+    }
+
+    .twitter-2x a {
+      color: rgb(0, 0, 0) !important;
+      font-size: 13pt;
+      padding: 7px 0px;
+    }
+
+    .fa-ticket {
+      padding: 5px 0px;
+    }
+
+		.event-list > li {
+			position: relative;
+			display: block;
+			width: 100%;
+			height: 120px;
+			padding: 0px;
+		}
+		.event-list > li > time,
+		.event-list > li > img  {
+			display: inline-block;
+		}
+		.event-list > li > time,
+		.event-list > li > img {
+			width: 120px;
+			float: left;
+		}
+		.event-list > li > .info {
+			background-color: rgb(245, 245, 245);
+			overflow: hidden;
+		}
+		.event-list > li > time,
+		.event-list > li > img {
+			width: 120px;
+			height: 120px;
+			padding: 0px;
+			margin: 0px;
+		}
+		.event-list > li > .info {
+			position: relative;
+			height: 120px;
+			text-align: left;
+			padding-right: 40px;
+		}
+		.event-list > li > .info > .title,
+		.event-list > li > .info > .desc {
+			padding: 0px 10px;
+		}
+
+		.event-list > li > .info > .sub-title {
+			/*padding: 10px;
+			padding-top: 5px;
+		    padding-bottom: 5px;*/
+		    padding: 1px;
+		}
+
+		.event-list > li > .info > ul {
+			position: absolute;
+			left: 0px;
+			bottom: 0px;
+		}
+		.event-list > li > .social {
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			display: block;
+			width: 40px;
+		}
+
+    .event-list > li > .social-multi {
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			display: block;
+			width: 40px;
+		}
+
+    .event-list > li > .social > ul,
+    .event-list > li > .social-multi > ul {
+        border-left: 1px solid rgb(230, 230, 230);
+    }
+
+		.event-list > li > .social > ul > li,
+    .event-list > li > .social-multi > ul > li {
+			display: block;
+      padding: 0px;
+		}
+
+		.event-list > li > .social > ul > li > a {
+			display: block;
+			width: 40px;
+			padding: 10px 0px 12px;
+			text-align: center;
+		}
+
+    .event-list > li > .social-multi > ul > li > a {
+			display: block;
+			width: 40px;
+			padding: 0px 0px 2px;
+			text-align: center;
+		}
+
+		.event-list > li > .info > .long-event {
+			font-size: 15pt;
+		}
+
+		.event-list > li > .info > .sold-out-event {
+			font-size: 15pt;
+		}
+
+		.event-list > li > .info > .long-venue {
+			font-size: 14pt;
+		}
+
+		.event-list > li > .info > .sold-out-venue {
+			font-size: 13pt;
+		}
+
+		.event-list > li > .info > .extra-long-venue {
+			font-size: 13pt;
+		}
+
+    .event-list > li > .info > .extra-extra-long-venue {
+			font-size: 12pt;
+		}
+
+    .event-list > li > .info > .extra-long-venue.MHWB {
+      font-size: 11pt;
+    }
+
+    #peach {
+      font-size: 15pt;
+    }
+	}

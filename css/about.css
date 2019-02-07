@@ -1,148 +1,148 @@
-/* Move down content because we have a fixed navbar that is 50px tall */
-ul.nav, .jumbotron h1 {
-	font-family: 'Roboto', sans-serif;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-ul.nav {
-	font-size: 13px;
-	font-weight: bold;
-}
-
-footer {
-	height: 190px;
-}
-
-#news-break {
-	width: 160px;
-}
-
-#news {
-	background-color: #f5f5f5;
-}
-
-#mgmt-section {
-	margin-bottom: 15px;
-}
-
-#endorsements-title
-{
-    margin-bottom: 25px;
-    margin-top: 35px;
-}
-
-#top-paragraph-bio {
-	margin-top: 20px;
-}
-
-.jumbotron {
-	text-align: center;
-	/*background-image: url('../images/adam.jpg');
-	background-size: 100% 100%;*/
-	/*background-image: url('../images/hero_image.jpg');*/
-	/*background-image: url('../images/coverPhoto.jpg');*/
-	background-image: url('../images/alt-cov-shrank.jpg');
-	background-position: center;
-    background-repeat: no-repeat;
-    background-color: grey;
-    background-size: cover;
-    margin-bottom: 0px;
-    height: 600px;
-}
-
-.btn-lg {
-	font-size: 26px;
-}
-
-.jumbotron h1{
-	margin-top: 200px;
-	margin-bottom: 300px;
-	color: white;
-}
-
-.jtAbout {
-	text-align: center;
-	/*background-image: url('../images/adam.jpg');
-	background-size: 100% 100%;*/
-	/*background-image: url('../images/hero_image.jpg');*/
-	/*background-image: url('../images/coverPhoto.jpg');*/
-	background-image: url('../images/adamCrowd-shrank.jpeg');
-	background-position: center;
-    background-repeat: no-repeat;
-    background-color: grey;
-    background-size: cover;
-    margin-bottom: 0px;
-    height: 600px;
-}
-
-.jumbotron p {
-	margin-bottom: 30px;
-	font-weight: 100;
-	padding: 0 50px;
-}
-
-.homepage h2{
-	margin-top: 20px;
-	font-weight: bold;
-	font-family: 'Arvo', serif;
-}
-
-.homepage h2, h1, h3,  p  {
-	text-align: center;
-}
-
-.homepage h1 {
-    font-size: 18px;
-}
-
-.homepage h3 {
-	font-weight: bold;
-	font-size: 16px;
-}
-
-.mgmt-contact {
-	padding-left: 30px;
-    padding-right: 30px;
-}
-
-.mgmt-contact h3 {
-    margin-bottom: 0px;
-}
-
-.mgmt-contact h1 {
-	margin-bottom: 0px;
-}
-.top-contact {
-	margin-top: 10px;
-}
-
-.bottom-row {
-	margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-
-/*Media Queries*/
-@media (max-width: 990px) {
-	.col-md-6 img {
-	    margin-bottom: 20px;
-	}
-}
-
-@media (max-width: 768px) {
-	hr {
-		width: 160px
-	}
-  footer{
-   height: 225px;
-  }
-}
-
-@media (max-width: 414px) {
-	hr {
-		width: 160px
-	}
-  /* footer{
-   height: 225px;
-  } */
-}
+/* Move down content because we have a fixed navbar that is 50px tall */
+ul.nav, .jumbotron h1 {
+	font-family: 'Roboto', sans-serif;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+ul.nav {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+footer {
+	height: 190px;
+}
+
+#news-break {
+	width: 160px;
+}
+
+#news {
+	background-color: #f5f5f5;
+}
+
+#mgmt-section {
+	margin-bottom: 15px;
+}
+
+#endorsements-title
+{
+    margin-bottom: 25px;
+    margin-top: 35px;
+}
+
+#top-paragraph-bio {
+	margin-top: 20px;
+}
+
+.jumbotron {
+	text-align: center;
+	/*background-image: url('../images/adam.jpg');
+	background-size: 100% 100%;*/
+	/*background-image: url('../images/hero_image.jpg');*/
+	/*background-image: url('../images/coverPhoto.jpg');*/
+	background-image: url('../images/alt-cov-shrank.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-color: grey;
+    background-size: cover;
+    margin-bottom: 0px;
+    height: 600px;
+}
+
+.btn-lg {
+	font-size: 26px;
+}
+
+.jumbotron h1{
+	margin-top: 200px;
+	margin-bottom: 300px;
+	color: white;
+}
+
+.jtAbout {
+	text-align: center;
+	/*background-image: url('../images/adam.jpg');
+	background-size: 100% 100%;*/
+	/*background-image: url('../images/hero_image.jpg');*/
+	/*background-image: url('../images/coverPhoto.jpg');*/
+	background-image: url('../images/adamCrowd-shrank.jpeg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-color: grey;
+    background-size: cover;
+    margin-bottom: 0px;
+    height: 600px;
+}
+
+.jumbotron p {
+	margin-bottom: 30px;
+	font-weight: 100;
+	padding: 0 50px;
+}
+
+.homepage h2{
+	margin-top: 20px;
+	font-weight: bold;
+	font-family: 'Arvo', serif;
+}
+
+.homepage h2, h1, h3,  p  {
+	text-align: center;
+}
+
+.homepage h1 {
+    font-size: 18px;
+}
+
+.homepage h3 {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.mgmt-contact {
+	padding-left: 30px;
+    padding-right: 30px;
+}
+
+.mgmt-contact h3 {
+    margin-bottom: 0px;
+}
+
+.mgmt-contact h1 {
+	margin-bottom: 0px;
+}
+.top-contact {
+	margin-top: 10px;
+}
+
+.bottom-row {
+	margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+/*Media Queries*/
+@media (max-width: 990px) {
+	.col-md-6 img {
+	    margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 768px) {
+	hr {
+		width: 160px
+	}
+  footer{
+   height: 225px;
+  }
+}
+
+@media (max-width: 414px) {
+	hr {
+		width: 160px
+	}
+  /* footer{
+   height: 225px;
+  } */
+}

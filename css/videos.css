@@ -1,62 +1,71 @@
 body {
   padding-top: 50px;
-  padding-bottom: 75px;
 
+  padding-bottom: 75px;
 }
 
 .footer {
-	    height: 178px;
+  height: 178px;
 }
 
 #title {
-    text-align: center;
-    color: #e74c3c;
-    font-weight: bold;
-    font-family: 'Arvo', serif;
+  text-align: center;
+
+  color: #e74c3c;
+
+  font-weight: bold;
+
+  font-family: 'Arvo', serif;
 }
 
 #bottom-row {
-  margin-bottom: 40px;
+  margin-bottom: 115px;
 }
 
-.col-md-6 h2{
-	text-align: center;
-    color: #e74c3c;
-    /*font-weight: bold;*/
-    font-family: 'Arvo', serif;
+.col-md-6 h2 {
+  text-align: center;
+
+  color: #e74c3c;
+
+  /*font-weight: bold;*/
+
+  font-family: 'Arvo', serif;
 }
 
 .ets {
   margin-bottom: 20px;
+
   font-size: 20px;
 }
 
-.row
-{
-	margin-top: 20px;
+.row {
+  margin-top: 20px;
 }
 
-iframe, object, embed {
-    max-width: 100%;
+iframe,
+object,
+embed {
+  max-width: 100%;
 }
 
 .videos {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 1024px) {
-    #shoes {
-        font-size: 29px;
-    }
+  #shoes {
+    font-size: 29px;
+  }
 }
 
 @media (max-width: 768px) {
-  .footer{
-   height: 210px;
+  .footer {
+    height: 210px;
   }
 
   .col-md-6 {
     display: block;
+
     text-align: center;
   }
 
@@ -66,8 +75,8 @@ iframe, object, embed {
 }
 
 @media (max-width: 414px) {
-  .footer{
-   height: 209px;
+  .footer {
+    height: 209px;
   }
 
   #bottom-row-mobile {
