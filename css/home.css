@@ -128,8 +128,10 @@ ul.nav {
 }
 
 .homepage {
+	padding-left: 10px;
+	padding-right: 10px;
 	margin: auto;
-	max-width: 80%;
+	max-width: 100%;
 }
 
 .homepage h2{
@@ -157,13 +159,6 @@ ul.nav {
 }
 
 /*Media Queries*/
-@media (max-width: 1400px) {
-	.homepage {
-		margin: auto;
-		max-width: 100%;
-	}
-}
-
 @media (max-width: 990px) {
 	#news-item-bottom, #news-item-top {
 	    margin-top: 35px;
