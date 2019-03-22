@@ -151,15 +151,16 @@ body {
 
   /* text-align: center; */
 
-  background-image: url("../images/testbg2.jpg");
+  /* background-image: url("../images/testbg2.jpg"); */
 
   /* background-repeat: no-repeat; */
 
-  background-size: cover;
+  /* background-size: cover; */
 
   /* height: 100vh; */
 
-  background-position: center;
+  /* background-position: center; */
+  background-color: #abacad;
 
 }
 
