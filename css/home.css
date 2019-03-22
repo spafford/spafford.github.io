@@ -127,6 +127,11 @@ ul.nav {
 	padding: 0 50px
 }
 
+.homepage {
+	margin: auto;
+	max-width: 80%;
+}
+
 .homepage h2{
 	margin-top: 20px;
 	color: #e74c3c;
